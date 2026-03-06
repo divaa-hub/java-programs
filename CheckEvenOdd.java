@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class CheckEvenOdd
+class Checkevenodd
 {
   public static void main(String args[])
   {
@@ -18,4 +18,5 @@ class CheckEvenOdd
      else
         System.out.println("Entered number is odd");
   }
+
 }
