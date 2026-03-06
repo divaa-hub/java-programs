@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Checkevenodd
+class checkevenodd
 {
   public static void main(String args[])
   {
@@ -20,3 +20,4 @@ class Checkevenodd
   }
 
 }
+
