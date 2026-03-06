@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class question1 {
+public class char {
 
     public static void main(String[] args) {
         char ch;
@@ -12,4 +12,5 @@ public class question1 {
             break;
             ++x;}
             while (x<=100);
+
         }}
