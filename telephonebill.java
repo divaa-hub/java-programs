@@ -1,5 +1,7 @@
+//program to input customer's number, name, mobile number, call made by the customer, and charges made on per call
+
 import java.util.*;
-class telephone
+class telephonebill
 {
 public static void main(String args[])
 {
@@ -27,4 +29,5 @@ System.out.println("charges to be paid = 600");
 System.out.println("charges of ₹4 per call");
 System.out.println("charges to be paid= 1600");
 }}
+
 
