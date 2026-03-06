@@ -1,3 +1,5 @@
+//program to input user choice number and to check whether even or odd
+
 import java.util.Scanner;
 
 class checkevenodd
@@ -20,4 +22,5 @@ class checkevenodd
   }
 
 }
+
 
