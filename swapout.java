@@ -1,3 +1,5 @@
+//program to swap out inputed intergers
+
 import java.util.*;
 class swapout
 {
@@ -12,4 +14,5 @@ b=a-b;
 a=a-b;
 System.out.println(a);
 System.out.println(b);
+
 }}
