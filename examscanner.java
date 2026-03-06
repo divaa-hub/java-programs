@@ -1,3 +1,7 @@
+// program to input first integers, calculating its square and cube, the inputing second number adding both the numbers
+// then entering name, age checkng major or minor, entering two numbers again comparing greater and smaller
+//inputing a character, to get its ascii value
+
 import java.util.Scanner;
 class examscanner
 {
@@ -50,3 +54,4 @@ System.out.println("Character is " + ch +" and ASCII of character is " + chint);
 
 }
 }
+
