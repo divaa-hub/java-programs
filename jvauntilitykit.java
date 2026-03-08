@@ -3,7 +3,7 @@
 //inputing a character, to get its ascii value
 
 import java.util.Scanner;
-class examscanner
+class jvautilitykit
 {
 public static void main(String args[])
 {
@@ -54,4 +54,3 @@ System.out.println("Character is " + ch +" and ASCII of character is " + chint);
 
 }
 }
-
