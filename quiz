@@ -1,0 +1,115 @@
+import java.util.Scanner;
+public class quiz
+{
+  public static void main(String  args[])
+    {  
+      Scanner sobj =new Scanner(System.in);
+      System.out.println("Enter Name");
+      String name=sobj.nextLine();  
+      
+      Scanner sobj1 =new Scanner(System.in); 
+      System.out.println("Enter quiz id");
+      int num =sobj1.nextInt();
+     
+    System.out.println("Press 1 to proceed");
+    int n =sobj1.nextInt();
+    switch(n) 
+    {
+    case 1:
+    System.out.println("Question 1: Which planet is closest to the Sun?");
+    System.out.println("           A) Earth");
+    System.out.println("           B) Mercury");
+    System.out.println("           C) Mars");
+    System.out.println("           D) Venus"); 
+    String queso =sobj.next();
+     {
+        String anso= "B";   
+    if(queso.equalsIgnoreCase(anso))
+     {
+    System.out.println("Right answer");
+        } else {
+     System.out.println("Wrong Answer" );
+    System.out.println("Question 2: What is the capital of Japan? ");
+    System.out.println("           A) Tokyo");
+    System.out.println("           B) Seoul");
+    System.out.println("           C) Beijing");
+    System.out.println("           D) Bangkok"); 
+    String quest =sobj.next();
+    {
+        String anst= "A";
+     if(quest.equalsIgnoreCase(anst))
+     {
+    System.out.println("Right answer");
+      } else {
+     System.out.println("Wrong Answer" );
+    System.out.println("Question 3: What planet is known as the Red Planet?");
+    System.out.println("           A) Venus");
+    System.out.println("           B) Jupiter");
+    System.out.println("           C) Mercury");
+    System.out.println("           D) Mars"); 
+    String questh =sobj.next();
+    {
+        String ansth= "D";
+     if(questh.equalsIgnoreCase(ansth))
+     {
+    System.out.println("Right answer");
+     } else {
+     System.out.println("Wrong Answer" );
+    
+    System.out.println("Question 4: What gas do humans need to breathe?");
+    System.out.println("           A) Oxygen");
+    System.out.println("           B) Hydrogen");
+    System.out.println("           C) Carbon Dioxide");
+    System.out.println("           D) Nitrogen"); 
+    String quesf =sobj.next();
+    {
+        String ansf= "A";
+     if(quesf.equalsIgnoreCase(ansf))
+     {
+    System.out.println("Right answer");
+    } else {
+     System.out.println("Wrong Answer" );
+    
+    System.out.println("Question 5: What is 9 × 8?");
+    System.out.println("           A) 64");
+    System.out.println("           B) 81");
+    System.out.println("           C) 72");
+    System.out.println("           D) 56"); 
+    String quesfi =sobj.next();
+    {
+        String ansfi= "C";
+     if(quesfi.equalsIgnoreCase(ansfi))
+     {
+    System.out.println("Right answer");
+     } else {
+     System.out.println("Wrong Answer" );
+    System.out.println("Question 6:What does CPU stand for?");
+    System.out.println("           A) Central Processing Unit");
+    System.out.println("           B) Computer Persona Unit");
+    System.out.println("           C) Central Program Utility");
+    System.out.println("           D) Control Processing Unit"); 
+    String quess =sobj.next();
+    {
+        String anss= "A";
+     if(quess.equalsIgnoreCase(anss))
+     {
+    System.out.println("Right answer");
+    } else {
+     System.out.println("Wrong Answer" );
+    
+    System.out.println("Question 7:Who was the first person to walk on the Moon?");
+    System.out.println("           A) Sunita Williams");
+    System.out.println("           B) Neil Armstrong");
+    System.out.println("           C) Yuri Gagarin");
+    System.out.println("           D) Rakesh Sharma"); 
+    String quesss =sobj.next();
+    {
+        String ansss= "A";
+     if(quesss.equalsIgnoreCase(ansss))
+     {
+    System.out.println("Right answer");}
+    
+    else 
+ {
+   System.out.println("Wrong Answer" );
+    }}}}}}}}}}}}}}}}}
